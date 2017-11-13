@@ -2,7 +2,9 @@
 
 This repo contains relational algebra evaluator. Relational Algebra is procedural query language, which takes Relation as input and generate relation as output. Relational algebra mainly provides theoretical foundation for relational databases and SQL.
 
-This also provides usage of lex and yacc for relational algebra evaluator.
+This also provides usage of lex and yacc for relational algebra evaluator. 
+
+To find the steps to use this code, you may look at makefile in src directory (or) 
 
 Steps: (using g++)
 
