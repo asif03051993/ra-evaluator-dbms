@@ -1,0 +1,22 @@
+
+***********File Names**********
+
+lex.l				lex file for relation algebra tokens.
+yacc.y			        yacc file(Parser for Relational Algebra Expressions) which creates the y.tab.c file.
+header.h 			Header file for Relational Algebra Operations.
+r.dat				File containing a sample relationship. 
+r2.dat				File containing a sample relationship.
+r3.dat				File containing a sample relationship.
+test1                           File containing relation algebra expression.
+test2				File containing relation algebra expression.
+test3				File containing relation algebra expression.
+test4				File containing relation algebra expression.
+
+*********Instructions***********
+
+#cd to the directory src and run the following commands.
+make 				//to build the Lex and Yacc for Fundamental Relation Algebra Operations.
+make runexample1		//to parse the file test1 containg expression and create print the result.
+make runexample2		//to parse the file test2 containg expression and create print the result.
+make runexample3		//to parse the file test3 containg expression and create print the result.
+make runexample4		//to parse the file test4 containg expression and create print the result.
